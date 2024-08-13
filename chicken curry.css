@@ -1,0 +1,73 @@
+/*General Styles*/
+body {
+    font-family: Arial, sans-serif;
+    margin:0;
+    padding:0;
+    line-height: 1.6;
+}
+
+/*Header*/
+header {
+    position:fixed;
+    top:0;
+    width:100%;
+    background-color: #333;
+    color:white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+header h1{ 
+    margin:0;
+}
+
+/*Container*/
+.container{
+margin-top: 70px; /* To offset the fixed header */
+    padding: 20px;
+}
+
+/* Title */
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Content Layout */
+.content {
+    position: relative;
+    padding-left: 180px; /* Offset ingredients to the right of the image */
+}
+
+/* Image Container */
+.image-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.image-container img {
+    display: block;
+    width: 150px;
+    height: auto;
+}
+
+/* Ingredients */
+.ingredients {
+    display: inline-block;
+}
+
+/* Instructions */
+.instructions {
+    margin-top: 20px;
+}
+
+/* Footer */
+footer {
+    position: relative;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
